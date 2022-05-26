@@ -27,6 +27,7 @@ public class Test {
         Student s4 = new Student("yangyuhuan", 33);
         Student s5 = new Student("linqingxia",33);
         Student s6 = new Student("linqingxia",33);
+        Student s7 = new Student("liningxia",38);
 //把学生添加到集合
         ts.add(s1);
         ts.add(s2);
@@ -34,6 +35,7 @@ public class Test {
         ts.add(s4);
         ts.add(s5);
         ts.add(s6);
+        ts.add(s7);
 //遍历集合
         for (Student s : ts) {
             System.out.println(s.getName() + "," + s.getAge());
