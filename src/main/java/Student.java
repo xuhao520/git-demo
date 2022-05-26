@@ -1,10 +1,13 @@
+import java.io.Serializable;
+
 /**
  * @author xuhao
  * @date 2022/5/26-10:55
  */
-public class Student {
+public class Student implements Serializable {
     private String name;
-    private int age;
+    private transient int age;
+    private static final long serialVersionUID=99L;
 
     public Student() {
     }
@@ -28,5 +31,10 @@ public class Student {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return this.name+","+this.age;
     }
 }
