@@ -27,7 +27,8 @@ public class Test {
         Student s4 = new Student("yangyuhuan", 33);
         Student s5 = new Student("linqingxia",33);
         Student s6 = new Student("linqingxia",33);
-        Student s7 = new Student("liningxia",38);
+        Student s7 = new Student("liningxia",31);
+
 //把学生添加到集合
         ts.add(s1);
         ts.add(s2);
